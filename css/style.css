@@ -5,6 +5,7 @@ body {
     letter-spacing: 1px;
 }
 
+/* image Slider section */
 .overlay {
 	width: 100%;
 	height: 100%;
@@ -63,6 +64,55 @@ body {
 	font-size: 23px;
 }
 
+.btn {
+	color: white;
+	padding: 12px, 30px;
+	cursor: pointer;
+	font-size: 20px;
+	border-color: #fff;
+	position: absolute;
+    width: 50%;
+    bottom: 82px;
+    left: 25%;
+    z-index: 6;
+    border: none;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    font-weight: 100;
+    letter-spacing: 2px;
+	font-size: 14px;
+	
+}
+
+.btn:hover {
+	background-color: RoyalBlue;
+}
+
+/* about section */
+
+.btn {
+	color: white;
+	padding: 12px, 30px;
+	cursor: pointer;
+	font-size: 20px;
+	border-color: #fff;
+	position: absolute;
+    width: 50%;
+    bottom: 82px;
+    left: 25%;
+    z-index: 6;
+    border: none;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    font-weight: 100;
+    letter-spacing: 2px;
+	font-size: 14px;
+	
+}
+
+.btn:hover {
+	background-color: RoyalBlue;
+}
+
+/* about section */
 .section {
 	padding: 100px 0;
 }
@@ -71,6 +121,7 @@ body {
 	max-width: 100%; 
 }
 
+/* skills section */
 .skillsSection, 
 .contactSection {
 	background-color: #c0392b;
@@ -107,6 +158,7 @@ body {
 	content: '%';	
 }
 
+/* contact section */
 .contactButton {
     color: black;
     display: inline-block;
@@ -121,6 +173,8 @@ body {
 	color: #e74c3c;
 	background-color: #fff;
 }
+
+/* portfolio projects section */
 .filter a {
 	color: silver;
 	border:1px solid black;
@@ -257,6 +311,28 @@ body {
 	padding: 0;
 }
 
+.picture-text {
+	position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: #c0392b;
+}
+
+.picture-text h6 {
+	text-align: center;
+}
+
+.picture-text span {
+	font-size: 10px;
+}
+
+@media only screen and (max-width: 1014px){
+	.picture-text span { display: none; }	
+}
+
+/* copyright section*/
 .copyrightSection {
 	background-color: #000;
 	color: #fff;
@@ -267,6 +343,7 @@ body {
 	margin: 0;
 }
 
+/* navigation section */
 #navigation {
     background-color: #c0392b;
     padding: 20px 10px;
@@ -297,42 +374,4 @@ body {
 	top: 0;
 }
 
-.picture-text {
-	position: absolute;
-    top: 17%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    background: #c0392b;
-}
 
-.picture-text h6 {
-	text-align: center;
-}
-
-.picture-text span {
-	font-size: 10px;
-}
-
-.btn {
-	color: white;
-	padding: 12px, 30px;
-	cursor: pointer;
-	font-size: 20px;
-	border-color: #fff;
-	position: absolute;
-    width: 50%;
-    bottom: 82px;
-    left: 25%;
-    z-index: 6;
-    border: none;
-    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
-    font-weight: 100;
-    letter-spacing: 2px;
-	font-size: 14px;
-	
-}
-
-.btn:hover {
-	background-color: RoyalBlue;
-}
