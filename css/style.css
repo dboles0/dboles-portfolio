@@ -133,11 +133,6 @@ body {
 	margin-left: 10px;
 }
 
-.skillDescription{
-	font-size: 9px;
-	text-align: left;
-	padding-bottom: 20px;	
-}
 
 .chart {
 	position: relative;
@@ -413,4 +408,10 @@ body {
         width: 20%;
         float: left;
     }
+}
+
+.skillDescription{
+	font-size: 9px;
+	text-align: left;
+	padding-bottom: 20px;	
 }
