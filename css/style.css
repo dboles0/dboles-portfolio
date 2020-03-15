@@ -132,6 +132,11 @@ body {
 	text-align: center;
 	margin-left: 10px;
 }
+#skill_description{
+	font-size: 9px;
+	text-align: left;
+	padding-bottom: 20px;	
+}
 
 .chart {
 	position: relative;
@@ -373,5 +378,38 @@ body {
 	position: fixed;
 	top: 0;
 }
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
 
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
