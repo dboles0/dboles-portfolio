@@ -132,7 +132,8 @@ body {
 	text-align: center;
 	margin-left: 10px;
 }
-#skill_description{
+
+.skill_description{
 	font-size: 9px;
 	text-align: left;
 	padding-bottom: 20px;	
